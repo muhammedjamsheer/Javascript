@@ -14,8 +14,10 @@ Angular is written in TypeScript.
 
 ### 2. Where To
 <span id="JavaScript_Where_To">
-Angular is a open-source  framework for building single-page client applications using HTML and TypeScript.
-Angular is written in TypeScript.
+In HTML, JavaScript code is inserted between <script> and </script> tags.
+  #### JavaScript in <head>
+  In this example, a JavaScript function is placed in the <head> section of an HTML page.
+  
 </span>
 
 
