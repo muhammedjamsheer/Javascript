@@ -21,3 +21,4 @@ In HTML, JavaScript code is inserted between <script> and </script> tags.
 </span>
 
 
+https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/#:~:text=join()%20combines%20all%20array,and%20changes%20the%20original%20array.&text=unshift()%20adds%20an%20item,and%2
