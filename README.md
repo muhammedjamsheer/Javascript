@@ -26,9 +26,9 @@ Both are comparison operators. The difference between both the operators is that
    A callback is a function that will be executed after another function gets executed.\
    Functions that are used as an argument to another function are called callback functions.
    
-   
-   function multiplyBy2(sum){
-  console.log(sum * 2);
+ ```javascript
+function multiplyBy2(sum){
+   console.log(sum * 2);
 }
 
 function operationOnSum(num1,num2,operation){
@@ -36,7 +36,10 @@ function operationOnSum(num1,num2,operation){
   operation(sum);
 }
 
-operationOnSum(3, 3, divideByHalf); // Outputs 3
+ operationOnSum(3, 3, divideByHalf); // Outputs 3
+ ```
+        
+
 
 
    
