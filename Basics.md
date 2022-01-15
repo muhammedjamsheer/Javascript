@@ -32,8 +32,7 @@
  ### Javascript-Comments
  JavaScript comments can be used to explain JavaScript code, and also used to prevent execution.
  
- ##### Single Line Comments
-       Single line comments start with `//`.
+ ##### Single Line Comments - Single line comments start with `//`.
    
 
  
