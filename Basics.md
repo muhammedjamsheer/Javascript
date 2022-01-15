@@ -22,13 +22,9 @@
       You can place an external script reference in <head> or <body> as you like.
      ##### External JavaScript Advantages 
      * It separates HTML and code
+     * It makes HTML and JavaScript easier to read and maintain
+     * Cached JavaScript files can speed up page loads
     
-    
-    
-    
-
-
-
   **[⬆ Back to Top](#table-of-contents)**
   
   ---
