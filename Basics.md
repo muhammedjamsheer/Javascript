@@ -4,14 +4,24 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [Javascript Where To?](#Javascript-Where-To)|
+|1 | [Javascript Where To](#Javascript-Where-To)|
 |2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
 |3 | [What is TypeScript?](#what-is-typescript)|
 
 
-1. ### Javascript Where To?
+1. ### Javascript Where To
+* In HTML, JavaScript code is inserted between <script> and </script> tags.
+* Scripts can  be placed in an HTML document. Javascript can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+* Scripts can also be placed in external files
+   * External scripts are practical when the same code is used in many different web pages.
+   * JavaScript files have the file extension .js
+   * To use an external script, put the name of the script file in the src (source) attribute of a <script> tag:
+    
+    
+    
+    
 
-    Angular is a **TypeScript-based open-source** front-end platform that makes it easy to build applications with in web/mobile/desktop. The major features of this framework such as declarative templates, dependency injection, end to end tooling, and many more other features are used to ease the development.
+
 
   **[⬆ Back to Top](#table-of-contents)**
   
