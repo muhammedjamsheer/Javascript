@@ -4,20 +4,25 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [What is Angular Framework?](#Javascript-Variables)|
-|1 | [Project Folder Structure?](#Project-Folder-Structure)|
+|1 | [Javascript Variables](#Javascript-Variables)|
+|2 | [Project Folder Structure?](#Project-Folder-Structure)|
 
 
 
 
 
 ### Javascript Variables
-* Supports two-way data binding.
-* Supports validations and template syntax (both angular and static).
-* We can add custom animations, directives, and services.
-* Hierarchical Dependency Injection structure (Parent-child).
-* Provision to facilitate RESTful services and client-server communication.
-* Lazy Loading: Lazy loading is based on the concepts of Angular Routing and it helps bring down the size of large files by lazily loading the data that are required.
+* Variables are containers for storing data.
+* We can declare JS variables in 3 ways var let const.
+
+###### The general rules for constructing names for variables
+* Names can contain letters, digits, underscores, and dollar signs
+* Names must begin with a letter or $ sign or _ underscore
+* Names are case sensitive (y and Y are different variables)
+* Reserved words (like JavaScript keywords) cannot be used as names
+
+
+
 * **[⬆ Back to Top](#table-of-contents)**
 
 ### Project Folder Structure
