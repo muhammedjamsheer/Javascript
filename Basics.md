@@ -2,7 +2,7 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [JavaScript Where To](#JavaScript-Where-To)|
+|1 | [JavaScript Where To](#JavaScript-Where-To)|         
 
 
 
