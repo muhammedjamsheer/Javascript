@@ -25,15 +25,21 @@
      * It makes HTML and JavaScript easier to read and maintain
      * Cached JavaScript files can speed up page loads
     
-**[⬆ Back to Top](#table-of-contents)**
----
+  **[⬆ Back to Top](#table-of-contents)**
  
- ### Javascript Comments
+  ---
+ 
+ 
+ 
+ ### Javascript Comments  
+
  JavaScript comments can be used to explain JavaScript code, and also used to prevent execution.
  
  ##### Single Line Comments  start with `//`.           
  ##### Multi-line comments start with `/*` and end with `*/`.
    
+ 
+
 
  
 
