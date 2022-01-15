@@ -4,14 +4,14 @@
 
 | No. | Questions |
 |---- | ---------
-|1 | [What is Angular Framework?](#what-is-angular-framework)|
+|1 | [What is Angular Framework?](#Javascript-Variables)|
 |1 | [Project Folder Structure?](#Project-Folder-Structure)|
 
 
 
 
 
-### what is angular framework
+### Javascript Variables
 * Supports two-way data binding.
 * Supports validations and template syntax (both angular and static).
 * We can add custom animations, directives, and services.
