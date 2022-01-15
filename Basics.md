@@ -9,9 +9,9 @@
 |3 | [What is TypeScript?](#what-is-typescript)|
 
 
-1. ### Javascript Where To
+ ### Javascript Where To
 * In HTML, JavaScript code is inserted between <script> and </script> tags.
-* Scripts can  be placed in an HTML document. Javascript can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+* Scripts can  be placed in an HTML document. Javascript can be placed in the `<body>`, or in the `<head>` section of an HTML page, or in both.
 * Scripts can also be placed in external files
    * External scripts are practical when the same code is used in many different web pages.
    * JavaScript files have the file extension .js
