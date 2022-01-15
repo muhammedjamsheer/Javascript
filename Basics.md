@@ -5,7 +5,7 @@
 | No. | Questions |
 |---- | ---------
 |1 | [Javascript Where To](#Javascript-Where-To)|
-|2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
+|2 | [Javascript Comments](#[Javascript-Comments)|
 |3 | [What is TypeScript?](#what-is-typescript)|
 
 
@@ -28,6 +28,15 @@
   **[⬆ Back to Top](#table-of-contents)**
   
   ---
+ 
+ ### Javascript-Comments
+ JavaScript comments can be used to explain JavaScript code, and also used to prevent execution.
+ 
+ ##### Single Line Comments
+       Single line comments start with `//`.
+   
+
+ 
 
 2. ### What is the difference between AngularJS and Angular?
     Angular is a completely revived component-based framework in which an application is a tree of individual components.
