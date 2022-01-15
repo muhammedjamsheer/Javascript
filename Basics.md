@@ -5,7 +5,7 @@
 | No. | Questions |
 |---- | ---------
 |1 | [What is Angular Framework?](#what-is-angular-framework)|
-
+|1 | [Project Folder Structure?](#Project-Folder-Structure)|
 
 
 
@@ -18,6 +18,7 @@
 * Hierarchical Dependency Injection structure (Parent-child).
 * Provision to facilitate RESTful services and client-server communication.
 * Lazy Loading: Lazy loading is based on the concepts of Angular Routing and it helps bring down the size of large files by lazily loading the data that are required.
+* **[⬆ Back to Top](#table-of-contents)**
 
 ### Project Folder Structure
 1. e2e - This folder is for an end to end testing purposes. It contains the configuration files related to performing the unit test of the projects.
