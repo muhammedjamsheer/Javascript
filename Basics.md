@@ -29,14 +29,10 @@
  
   ---
  
- 
- 
  ### Javascript Comments  
-
- JavaScript comments can be used to explain JavaScript code, and also used to prevent execution.
- 
- ##### Single Line Comments  start with `//`.           
- ##### Multi-line comments start with `/*` and end with `*/`.
+ JavaScript comments can be used to explain JavaScript code, and also used to prevent execution.                   
+ Single Line Comments  start with `//`.                                        
+ Multi-line comments start with `/*` and end with `*/`.
    
  
 
