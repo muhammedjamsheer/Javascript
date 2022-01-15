@@ -22,6 +22,7 @@
 * Reserved words (like JavaScript keywords) cannot be used as names.
 ##### Let Variable
 * The let keyword was introduced in ES6 (2015).
+* Variables defined with let have Block Scope.
 * Variables defined with let cannot be Redeclared.
  ```javascript
    let x = "John Doe";
@@ -30,8 +31,7 @@
   ```
 
 
-* Variables defined with let must be Declared before use.
-* Variables defined with let have Block Scope.  
+* Variables defined with let must be Declared before use.  
   Variables declared inside a { } block cannot be accessed from outside the block:
  ```javascript
  {
