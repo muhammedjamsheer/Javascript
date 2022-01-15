@@ -15,11 +15,17 @@
 * Variables are containers for storing data.
 * We can declare JS variables in 3 ways var let const.
 
-###### The general rules for constructing names for variables
-* Names can contain letters, digits, underscores, and dollar signs
-* Names must begin with a letter or $ sign or _ underscore
-* Names are case sensitive (y and Y are different variables)
-* Reserved words (like JavaScript keywords) cannot be used as names
+##### The general rules for constructing names for variables
+* Names can contain letters, digits, underscores, and dollar signs.
+* Names must begin with a letter or $ sign or _ underscore.
+* Names are case sensitive (y and Y are different variables).
+* Reserved words (like JavaScript keywords) cannot be used as names.
+##### Let Variable
+* The let keyword was introduced in ES6 (2015).
+* Variables defined with let cannot be Redeclared.
+* Variables defined with let must be Declared before use.
+* Variables defined with let have Block Scope.
+
 
 
 
