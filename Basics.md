@@ -16,9 +16,12 @@
    * External scripts are practical when the same code is used in many different web pages.
    * JavaScript files have the file extension .js
    * To use an external script, put the name of the script file in the src (source) attribute of a <script> tag:
-      ```javascript
+      ```html
      <script src="myScript.js"></script>
       ```
+      You can place an external script reference in <head> or <body> as you like.
+     ##### External JavaScript Advantages 
+     * It separates HTML and code
     
     
     
