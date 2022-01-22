@@ -167,6 +167,14 @@ let text1 = "      Hello World!      ";
 let text2 = text1.trim();
 // output  Hello World!
  ``` 
+ 
+ #### 5. Replacing String Content
+The `replace()` method replaces a specified value with another value in a string
+ ```javascript
+let text = "Please visit Microsoft!";
+let newText = text.replace("Microsoft", "W3Schools");
+// output  Please visit W3Schools
+ ``` 
 
  
 
