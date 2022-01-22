@@ -34,9 +34,20 @@
 
 * Variables defined with let cannot be Redeclared.
  ```javascript
-   let x = "John Doe";
-   let x = 0;
-   // SyntaxError: 'x' has already been declared
+  let x = "John Doe";
+  let x = 0;
+  // SyntaxError: 'x' has already been declared
+  ```
+  ###### Const Variable
+  * The const keyword was introduced in ES6 (2015).
+  * Variables defined with const cannot be Redeclared.
+  * Variables defined with const have Block Scope.
+  * Variables defined with const cannot be Reassigned.
+
+ ```javascript
+  const PI = 3.141592653589793;
+  PI = 3.14;      // This will give an error
+  PI = PI + 10;   // This will also give an error
   ```
 
 
