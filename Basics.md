@@ -100,6 +100,28 @@ Array items are separated by commas.
  ```javascript
 const cars = ["Saab", "Volvo", "BMW"];
   ```
+  
+#### 4.JavaScript Objects
+JavaScript objects are written with curly braces {}.
+Object properties are written as name:value pairs, separated by commas.
+ ```javascript
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+  ```
+  
+#### The typeof Operator
+JavaScript typeof operator to find the type of a JavaScript variable.
+ ```javascript
+typeof ""             // Returns "string"
+typeof "John"         // Returns "string"
+typeof "John Doe"     // Returns "string"
+
+typeof 0              // Returns "number"
+typeof 314            // Returns "number"
+typeof 3.14           // Returns "number"
+typeof (3)            // Returns "number"
+typeof (3 + 4)   
+  ```
+
 
 
 **[⬆ Back to Top](#table-of-contents)**
