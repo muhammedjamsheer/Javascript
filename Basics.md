@@ -121,6 +121,16 @@ typeof 3.14           // Returns "number"
 typeof (3)            // Returns "number"
 typeof (3 + 4)   
   ```
+  
+#### Undefined
+In JavaScript, a variable without a value, has the value undefined. The type is also undefined.
+ ```javascript
+ let car;    // Value is undefined, type is undefined
+  ```
+Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
+ ```javascript
+car = undefined;    // Value is undefined, type is undefined
+ ``` 
 
 
 
