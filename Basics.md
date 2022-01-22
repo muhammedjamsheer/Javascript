@@ -6,7 +6,7 @@
 |---- | ---------
 |1 | [Javascript Variables](#Javascript-Variables)|
 |2 | [Javascript Data Types](#Javascript-Data-Types)|
-|2 | [String Methods](#String Methods)|
+|3 | [String Methods](#String-Methods)|
 
 
 
