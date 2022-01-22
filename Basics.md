@@ -145,10 +145,21 @@ let length = text.length;
 A string is converted to upper case with `toUpperCase()`:      
 A string is converted to lower case with `toLowerCase()`:
  ```javascript
-let text = "Apple";
-let length = text.length;
+let fruit = "Apple";
+let result = fruit.toUpperCase();
+// output APPLE
+let result = fruit.toLowerCase();
+// output apple
+ ```
 
-// output 5
+  #### 3.JavaScript String concat()
+`concat()` joins two or more strings:
+ ```javascript
+let text1 = "Hello";
+let text2 = "World";
+let text3 = text1.concat(" ", text2);
+// output Hello World
+
  ``` 
  
 
