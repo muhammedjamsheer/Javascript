@@ -138,6 +138,16 @@ car = undefined;    // Value is undefined, type is undefined
  ```javascript
 let text = "Apple";
 let length = text.length;
+
+// output 5
+ ``` 
+  #### 2.Converting to Upper and Lower Case
+A string is converted to upper case with toUpperCase():
+A string is converted to lower case with toLowerCase():
+ ```ruby
+let text = "Apple";
+let length = text.length;
+
 // output 5
  ``` 
  
