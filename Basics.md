@@ -138,7 +138,7 @@ car = undefined;    // Value is undefined, type is undefined
  ```javascript
 let text = "Apple";
 let length = text.length;
-// 5
+// output 5
  ``` 
  
 
