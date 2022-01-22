@@ -5,7 +5,7 @@
 | No. | Questions |
 |---- | ---------
 |1 | [Javascript Variables](#Javascript-Variables)|
-|2 | [Project Folder Structure?](#Project-Folder-Structure)|
+|2 | [Javascript Data Types](#Javascript-Data-Types)|
 
 
 
@@ -76,16 +76,8 @@ If you re-declare a JavaScript variable declared with var, it will not lose its 
 
 * **[⬆ Back to Top](#table-of-contents)**
 
-### Project Folder Structure
-1. e2e - This folder is for an end to end testing purposes. It contains the configuration files related to performing the unit test of the projects.
-1. node_modules - This folder contains the downloaded packages as per the configuration.
-1. src - This folder contains the actual source code. It contains 3 subfolders as – 
-   1. app - App folder contains the Angular project-related files like components, HTML files, etc.
-   1. assets - Assets folder contains any static files like images, stylesheets, custom javascript library files.
-   1. environments - Environments folder contains the environment-related files which are required during  build of the projects.
-#### Different Config Files   
-1. package.json-it is basically a JSON file that contains all information related to the required packages for the project.
-1. angular.json – angular.json file is an Angular Application Environment based JSON file which contains all the information related to the project build and deployment. It tells the system which files need to change when we use ng build or ng serve command. 
+### Javascript Data Types 
+JavaScript variables can hold different data types:  string, number, boolean,object and more:
 
 
 **[⬆ Back to Top](#table-of-contents)**
