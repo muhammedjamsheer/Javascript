@@ -175,6 +175,18 @@ let text = "Please visit Microsoft!";
 let newText = text.replace("Microsoft", "W3Schools");
 // output  Please visit W3Schools
  ``` 
+#### 6. Extracting String Parts
+The `replace()` method replaces a specified value with another value in a string
+* slice(start, end)
+* substring(start, end)
+* substr(start, length)
+
+JavaScript String slice()
+ ```javascript
+let text = "Please visit Microsoft!";
+let newText = text.replace("Microsoft", "W3Schools");
+// output  Please visit W3Schools
+ ``` 
 
  
 
