@@ -159,8 +159,15 @@ let text1 = "Hello";
 let text2 = "World";
 let text3 = text1.concat(" ", text2);
 // output Hello World
-
  ``` 
+ #### 4. JavaScript String trim()
+The `trim()` method removes whitespace from both sides of a string:
+ ```javascript
+let text1 = "      Hello World!      ";
+let text2 = text1.trim();
+// output  Hello World!
+ ``` 
+
  
 
 
