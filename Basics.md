@@ -77,7 +77,19 @@ If you re-declare a JavaScript variable declared with var, it will not lose its 
 * **[⬆ Back to Top](#table-of-contents)**
 
 ### Javascript Data Types 
-JavaScript variables can hold different data types:  string, number, boolean,object and more:
+JavaScript variables can hold different data types:  string, number, boolean,object and more:   
+###### JavaScript Strings
+Strings are written with quotes. You can use single or double quotes:
+ ```javascript
+let carName1 = "Volvo XC60";   // Using double quotes
+let carName2 = 'Volvo XC60';   // Using single quotes
+  ```
+###### JavaScript Numbers
+Numbers can be written with, or without decimals:
+ ```javascript
+let x1 = 34.00;     // Written with decimals
+let x2 = 34;        // Written without decimals
+  ```
 
 
 **[⬆ Back to Top](#table-of-contents)**
