@@ -23,10 +23,15 @@
 
 A variable declared without a value will have the value undefined.
 ```javascript
-  var name;
-  //undefined
- ```
+  var name;   //undefined
+```
 
+If you re-declare a JavaScript variable declared with var, it will not lose its value.
+ ```javascript
+ var carName = "Volvo";
+ var carName;
+ // Volvo
+  ```
 
 
 ##### Let Variable
