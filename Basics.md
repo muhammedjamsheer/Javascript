@@ -32,7 +32,10 @@ If you re-declare a JavaScript variable declared with var, it will not lose its 
  var carName;
  // Volvo
   ```
-
+##### Var Variable
+* The var is the oldest keyword to declare a variable in JavaScript. . 
+* Variables defined with let have Block Scope. 
+* Variables declared inside a { } block cannot be accessed from outside the block:
 
 ##### Let Variable
 * The let keyword was introduced in ES6 (2015).
