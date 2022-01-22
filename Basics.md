@@ -20,6 +20,15 @@
 * Names must begin with a letter or $ sign or _ underscore.
 * Names are case sensitive (y and Y are different variables).
 * Reserved words (like JavaScript keywords) cannot be used as names.
+
+A variable declared without a value will have the value undefined.
+```javascript
+  var name;
+  //undefined
+ ```
+
+
+
 ##### Let Variable
 * The let keyword was introduced in ES6 (2015).
 * Variables defined with let must be Declared before use. 
