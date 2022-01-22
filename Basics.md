@@ -6,6 +6,7 @@
 |---- | ---------
 |1 | [Javascript Variables](#Javascript-Variables)|
 |2 | [Javascript Data Types](#Javascript-Data-Types)|
+|2 | [String Methods](#String Methods)|
 
 
 
@@ -131,6 +132,15 @@ Any variable can be emptied, by setting the value to undefined. The type will al
  ```javascript
 car = undefined;    // Value is undefined, type is undefined
  ``` 
+ ### String Methods
+ #### 1.String Length
+ To find the length of a string, use the built-in length property:
+ ```javascript
+let text = "Apple";
+let length = text.length;
+// 5
+ ``` 
+ 
 
 
 
