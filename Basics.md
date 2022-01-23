@@ -455,9 +455,9 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
  
     
   ### Comparison-Operators
-| Operator. | Example |  	Comparing   |  Return   |
-|----| ---------------|-------------- |-----------|
-| =  |  x=y           |    	x = y     |  true     |
-
+| Operator. | Description   |  	Comparing   |  Return   |
+|----| ---------------      |-------------- |-----------|
+| ==  |  equal to           |    	x == 8     |  true     |
+|     |        |                                  x==9       |  false    |
 
 
