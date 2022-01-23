@@ -208,15 +208,12 @@ let part = str.slice(-4);
 
 ##### 1.charAt(position)
 The charAt() method returns the character at a specified index (position) in a string:  
-
   ```javascript
 let text = "HELLO WORLD";
 let char = text.charAt(0)
 // output  H
  ```
 ##### 2.Property Access
-The charAt() method returns the character at a specified index (position) in a string:  
-
   ```javascript
 let text = "HELLO WORLD";
 let char = text[0];
