@@ -222,7 +222,7 @@ let text = "HELLO WORLD";
 let char = text[0];
 // output  H
  ```
- #### 7. Converting a String to an Array
+ #### 8. Converting a String to an Array
  A string can be converted to an array with the `split()` method:
 
  ```javascript
@@ -234,14 +234,29 @@ text.split("|")    // Split on pipe
 If the separator is omitted, the returned array will contain the whole string in index [0].    
 If the separator is "", the returned array will be an array of single characters:
 
- #### 8.JavaScript Search Methods
+ #### 9.JavaScript Search Methods
 * String indexOf()
 * String lastIndexOf()
 * String startsWith()
 * String endsWith()
 
-##### 1.JavaScript String indexOf()
+##### 1. indexOf()
 The `indexOf()` method returns the index of (the position of) the first occurrence of a specified text in a string:
+
+ ```javascript
+let str = "Please locate where 'locate' occurs!";
+str.indexOf("locate");
+//output  7
+ ```
+ 
+ ##### 2. lastIndexOf()
+The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:
+
+ ```javascript
+let str = "Please locate where 'locate' occurs!";
+str.lastIndexOf("locate");
+//output  21
+ ```
 
 
 **[⬆ Back to Top](#table-of-contents)**
