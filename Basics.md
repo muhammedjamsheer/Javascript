@@ -436,16 +436,13 @@ Decrement       let x = 100--;        //output  99
 ###  Assignment-Operators
 Assignment operators assign values to JavaScript variables
   
-| Operator. | Description |  Description | 
+| Operator. | Example |  Same As | 
 |----| -------------------|--------------|
-|  + |  Addition    |
-|  - | 	Subtraction |
-|  * |  Multiplication    |
-|  / | 	Division |
-| ** |  Exponentiation (Power)     |
-|  % | 	Modulus (Remainder) |
-| ++ |  Increment     |
-| -- |  Decrement |
+| =  |  x=y     |    	x = y     |
+| += |  x+=y    |    	x = x+ y  |
+| -= |  x-=y    |    	x = x- y  |
+| *= |  x*=y    |    	x = x* y  |
+| /= |  x/=y    |    	x = x/ y  |
 
   ```javascript
 Addition        let x = 100 + 50;     //output  150
