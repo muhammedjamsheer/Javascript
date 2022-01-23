@@ -455,10 +455,11 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
  
     
   ### Comparison-Operators
+  
 | Operator. | Description   |  	Comparing   |  Return   |
-|----| ---------------      |-------------- |-----------|
-| ==  |  equal to           |    	x == 8,
-                                   x == 8     |  true     |
-|     |                     |     x==9       |  false    |
+|----      | ---------------     |-------------- |-----------|
+| ==       |  equal to           |let x=5;    x == 8   |  false  |
+|          |                     |let x=5;    x == 8   |  true    |
+|          |                     |let x=5;    x == "5" |  true    |
 
 
