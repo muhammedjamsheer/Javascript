@@ -378,4 +378,14 @@ parseFloat("years 10");   //output  NaN
  ```
   
  **[⬆ Back to Top](#table-of-contents)**
+ 
+  ### Arithmetic-Operators
+  
+| Operator. | Description |
+|---- | ---------
+|+ |  Addition    |
+|- | 	Subtraction |
+
+    
+  **[⬆ Back to Top](#table-of-contents)**
 
