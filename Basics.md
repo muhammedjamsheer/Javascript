@@ -475,9 +475,9 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
 
   ### Logical-Operators
   Logical operators are used to determine the logic between variables or values.
- * &&   -> logical and  
- * || 	 -> logical or   
-  * !   -> logical not 
+ * &&   logical and    it returns true when all the conditions are true
+ * || 	 logical or     it return true when any of the conditions are true
+ * !    logical not    it returns the opposite of the tesult
   
 ```javascript
 
