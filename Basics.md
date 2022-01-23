@@ -467,3 +467,7 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
 | !==      |  not equal value or not equal type|  	x !== 5   |  false    |
 |          |                                 |  	x !== "5"   |  false    |
 |          |                                 |  	x !== 8   |  true    |
+|>         |  greater than                   |  x > 8    |  false  |
+| <       |  	less than                      |  x > 8    |  true  |
+| >=      |  	greater than or equal to       |  x >= 8   |  false  |
+| <=      |  less than or equal to           |  x <= 8    |  true  |
