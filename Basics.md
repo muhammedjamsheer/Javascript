@@ -250,14 +250,14 @@ str.indexOf("locate");
  ```
  
  ##### 2. lastIndexOf()
-The lastIndexOf() method returns the index of the last occurrence of a specified text in a string:
+The `lastIndexOf()` method returns the index of the last occurrence of a specified text in a string:
 
  ```javascript
 let str = "Please locate where 'locate' occurs!";
 str.lastIndexOf("locate");
 //output  21
  ```
-
+`Both indexOf(), and lastIndexOf() return -1 if the text is not found`
 
 **[⬆ Back to Top](#table-of-contents)**
 
