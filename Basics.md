@@ -233,6 +233,16 @@ text.split("|")    // Split on pipe
  
 If the separator is omitted, the returned array will contain the whole string in index [0].    
 If the separator is "", the returned array will be an array of single characters:
- 
+
+ #### 8.JavaScript Search Methods
+* String indexOf()
+* String lastIndexOf()
+* String startsWith()
+* String endsWith()
+
+##### 1.JavaScript String indexOf()
+The `indexOf()` method returns the index of (the position of) the first occurrence of a specified text in a string:
+
+
 **[⬆ Back to Top](#table-of-contents)**
 
