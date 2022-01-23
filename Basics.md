@@ -382,9 +382,15 @@ parseFloat("years 10");   //output  NaN
   ### Arithmetic-Operators
   
 | Operator. | Description |
-|---- | ---------
-|+ |  Addition    |
-|- | 	Subtraction |
+|----| ---------
+|+   |  Addition    |
+|-   | 	Subtraction |
+|*   |  Multiplication    |
+|/   | 	Division |
+|**  |  Exponentiation     |
+|%   | 	Modulus (Remainder) |
+| ++ |  Increment     |
+| -- | 	Modulus (Remainder) |
 
     
   **[⬆ Back to Top](#table-of-contents)**
