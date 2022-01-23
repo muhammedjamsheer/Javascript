@@ -237,6 +237,9 @@ If the separator is "", the returned array will be an array of single characters
  #### 9.JavaScript Search Methods
 * String indexOf()
 * String lastIndexOf()
+* String search()
+* String match()
+* String includes()
 * String startsWith()
 * String endsWith()
 
@@ -258,6 +261,40 @@ str.lastIndexOf("locate");
 //output  21
  ```
 `Both indexOf(), and lastIndexOf() return -1 if the text is not found`
+
+ ##### 3. search()
+The `search()` method searches a string for a specified value and returns the position of the match:
+
+ ```javascript
+let str = "Please locate where 'locate' occurs!";
+str.search("locate");
+//output  7
+ ```
+ 
+  ##### 4. includes()
+The `includes()` method returns true if a string contains a specified value.
+
+ ```javascript
+let text = "Hello world, welcome to the universe.";
+text.includes("world");
+//output  true
+ ```
+ ##### 5. startsWith()
+The `startsWith()`  method returns true if a string begins with a specified value, otherwise false:
+
+ ```javascript
+let text = "Hello world, welcome to the universe.";
+text.startsWith("Hello");
+//output  true
+ ```
+##### 6. endsWith()
+The `endsWith()`  method returns true if a string ends with a specified value, otherwise false:
+
+ ```javascript
+var text = "John Doe";
+text.endsWith("Doe");
+//output  true
+ ```
 
 **[⬆ Back to Top](#table-of-contents)**
 
