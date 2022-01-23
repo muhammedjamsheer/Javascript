@@ -300,6 +300,10 @@ text.endsWith("Doe");
 **[⬆ Back to Top](#table-of-contents)**
 
  ### Number Methods
+ ##### Adding Numbers and Strings
+  ```javascript
+let x = 10;  let y = 20;  let z = x + y;  //output  30
+ ```
  
  **[⬆ Back to Top](#table-of-contents)**
 
