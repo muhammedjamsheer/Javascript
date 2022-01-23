@@ -7,6 +7,7 @@
 |1 | [Javascript Variables](#Javascript-Variables)|
 |2 | [Javascript Data Types](#Javascript-Data-Types)|
 |3 | [String Methods](#String-Methods)|
+|4 | [Number Methods](#Number-Methods)|
 
 
 
@@ -297,4 +298,8 @@ text.endsWith("Doe");
  ```
 
 **[⬆ Back to Top](#table-of-contents)**
+
+ ### Number Methods
+ 
+ **[⬆ Back to Top](#table-of-contents)**
 
