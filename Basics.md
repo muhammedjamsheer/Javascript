@@ -455,6 +455,7 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
  
     
   ### Comparison-Operators
+  Comparison operators are used in logical statements to determine equality or difference between variables or values.      
   let x=5;  
 | Operator. | Description   |  	Comparing   |  Return   |
 |----      | ---------------     |-------------- |-----------|
@@ -471,3 +472,13 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
 | <       |  	less than                      |  x > 8    |  true  |
 | >=      |  	greater than or equal to       |  x >= 8   |  false  |
 | <=      |  less than or equal to           |  x <= 8    |  true  |
+
+  ### Logical -Operators
+  Logical operators are used to determine the logic between variables or values.
+  
+| Operator. | Description |
+|----| ---------
+|  && |  logical and    |
+|  || | 	logical or   |
+|  !  | 		logical not |
+  
