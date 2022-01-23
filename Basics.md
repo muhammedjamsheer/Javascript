@@ -131,7 +131,10 @@ In JavaScript, a variable without a value, has the value undefined. The type is 
 Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
  ```javascript
 car = undefined;    // Value is undefined, type is undefined
- ``` 
+ ```
+ 
+**[⬆ Back to Top](#table-of-contents)**
+
  ### String Methods
  #### 1.String Length
  To find the length of a string, use the built-in length property:
@@ -204,7 +207,7 @@ let part = str.slice(-4);
 // output  Kiwi
  ```
  
- #### 6. Extracting String Characters
+ #### 7. Extracting String Characters
 
 ##### 1.charAt(position)
 The charAt() method returns the character at a specified index (position) in a string:  
@@ -219,9 +222,17 @@ let text = "HELLO WORLD";
 let char = text[0];
 // output  H
  ```
-  
+ #### 7. Converting a String to an Array
+ A string can be converted to an array with the `split()` method:
 
-
-
+ ```javascript
+text.split(",")    // Split on commas
+text.split(" ")    // Split on spaces
+text.split("|")    // Split on pipe
+ ```
+ 
+If the separator is omitted, the returned array will contain the whole string in index [0].    
+If the separator is "", the returned array will be an array of single characters:
+ 
 **[⬆ Back to Top](#table-of-contents)**
 
