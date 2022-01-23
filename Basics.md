@@ -304,7 +304,19 @@ text.endsWith("Doe");
   ```javascript
 let x = 10;    let y = 20;     let z = x + y;    //output  30
 let x = "10";  let y = "20";   let z = x + y;    //output  1020
+let x = 10;    let y = "20";   let z = x + y;    //output  1020
+let x = "10";  let y = 20;     let z = x + y;    //output  1020
+let x = 10;    let y = 20;     let z = "30";    let result = x + y + z;  //output  3030
+let x = "100"; let y = "10";   let z = x / y;    //output  10
+let x = "100"; let y = "10";   let z = x * y;    //output  1000
+let x = "100"; let y = "10";   let z = x - y;    //output  90
  ```
  
+  ##### The toString() Method
+  The `toString()` method returns a number as a string.
+ ```javascript
+let x = 123 ;  x.toString()      //output  123
+ ```
+  
  **[⬆ Back to Top](#table-of-contents)**
 
