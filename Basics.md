@@ -317,6 +317,39 @@ let x = "100"; let y = "10";   let z = x - y;    //output  90
  ```javascript
 let x = 123 ;  x.toString()      //output  123
  ```
+ 
+   ##### The toFixed() Method
+  The `toFixed()` method returns a string, with the number written with a specified number of decimals:
+ ```javascript
+let x = 9.656;
+x.toFixed(0);  //output  10
+x.toFixed(2);  //output  9.66
+x.toFixed(4);  //output  9.6560
+x.toFixed(6);  //output  9.656000
+ ```
+ 
+ ##### Converting Variables to Numbers
+ There are 3 JavaScript methods that can be used to convert variables to numbers:
+
+* The Number() method
+* The parseInt() method
+* The parseFloat() method
+
+ ###### The Number() Method
+ `Number()` can be used to convert JavaScript variables to numbers:
+ 
+  ```javascript
+Number(true);     //output  1
+Number(false);   //output  0
+Number("10");    //output  10
+Number("  10")   //output  10
+Number("10  ")   //output  10
+Number(" 10  ")  //output  10
+Number("10.33")  //output  10.33
+Number("10,33")  //output  NaN
+Number("10 33")  //output  NaN
+Number("John");  //output  NaN
+ ```
   
  **[⬆ Back to Top](#table-of-contents)**
 
