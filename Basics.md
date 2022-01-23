@@ -8,6 +8,8 @@
 |2 | [Javascript Data Types](#Javascript-Data-Types)|
 |3 | [String Methods](#String-Methods)|
 |4 | [Number Methods](#Number-Methods)|
+|5 | [Array Methods](#Array-Methods)|
+|6 | [Arithmetic Operators](#Arithmetic-Operators)|
 
 
 
