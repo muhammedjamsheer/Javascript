@@ -457,16 +457,8 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
   ### Comparison-Operators
   
 | Operator. | Description |	Comparing |  Returns  |
-|-----| --------------------------------------------|
+|-----| --------------------------------------------
 | ==  |  equal to    |x == 8   |  true  |
-| === | 	equal value and equal type |x == 8   |  true  |
-| !=  |  not equal    |x == 8   |  true  |
-| !== | 	not equal value or not equal type |x == 8   |  true  |
-| >   |  greater than     |x == 8   |  true  |
-| <   | 	less than |x == 8   |  true  |
-| >=  |  greater than or equal to     |x == 8   |  true  |
-| <=  |  less than or equal to |x == 8   |  true  |
-| ?   |  ternary operator |x == 8   |  true  |
 
   ```javascript
 
