@@ -478,7 +478,7 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
   
 | Operator. | Description |
 |----| ---------
-|  && |  logical and    |
-|  || | 	logical or   |
+|  && |  logical and  |
+|  `||` | 	logical or   |
 |  !  | 		logical not |
   
