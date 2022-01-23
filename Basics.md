@@ -456,25 +456,19 @@ Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
     
   ### Comparison-Operators
   
-| Operator. | Description |
-|----| ---------
-|  + |  Addition    |
-|  - | 	Subtraction |
-|  * |  Multiplication    |
-|  / | 	Division |
-| ** |  Exponentiation (Power)     |
-|  % | 	Modulus (Remainder) |
-| ++ |  Increment     |
-| -- |  Decrement |
+| Operator. | Description |	Comparing |  Returns  |
+|-----| --------------------------------------------|
+| ==  |  equal to    |x == 8   |  true  |
+| === | 	equal value and equal type |x == 8   |  true  |
+| !=  |  not equal    |x == 8   |  true  |
+| !== | 	not equal value or not equal type |x == 8   |  true  |
+| >   |  greater than     |x == 8   |  true  |
+| <   | 	less than |x == 8   |  true  |
+| >=  |  greater than or equal to     |x == 8   |  true  |
+| <=  |  less than or equal to |x == 8   |  true  |
+| ?   |  ternary operator |x == 8   |  true  |
 
   ```javascript
-Addition        let x = 100 + 50;     //output  150
-Subtraction     let x = 100 - 50;     //output  50
-Multiplication  let x = 10 * 5;       //output  50
-Division        let x = 10 / 5;       //output  50
-Exponentiation  let x = 10 ** 2;      //output  100   let x = 10 ** 3;     //output  1000
-Modulus         let x = 10 % 3;       //output  1
-Increment       let x = 100++;        //output  101   
-Decrement       let x = 100--;        //output  99
+
  ```
 
