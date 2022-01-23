@@ -408,33 +408,7 @@ Decrement       let x = 100--;        //output  99
 
   **[⬆ Back to Top](#table-of-contents)**
   
-   
-  ### Arithmetic-Operators
   
-| Operator. | Description |
-|----| ---------
-|  + |  Addition    |
-|  - | 	Subtraction |
-|  * |  Multiplication    |
-|  / | 	Division |
-| ** |  Exponentiation (Power)     |
-|  % | 	Modulus (Remainder) |
-| ++ |  Increment     |
-| -- |  Decrement |
-
-  ```javascript
-Addition        let x = 100 + 50;     //output  150
-Subtraction     let x = 100 - 50;     //output  50
-Multiplication  let x = 10 * 5;       //output  50
-Division        let x = 10 / 5;       //output  50
-Exponentiation  let x = 10 ** 2;      //output  100   let x = 10 ** 3;     //output  1000
-Modulus         let x = 10 % 3;       //output  1
-Increment       let x = 100++;        //output  101   
-Decrement       let x = 100--;        //output  99
- ```
- 
-  
-   
 ###  Assignment-Operators
 Assignment operators assign values to JavaScript variables
   
