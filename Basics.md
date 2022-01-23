@@ -302,7 +302,8 @@ text.endsWith("Doe");
  ### Number Methods
  ##### Adding Numbers and Strings
   ```javascript
-let x = 10;  let y = 20;  let z = x + y;  //output  30
+let x = 10;    let y = 20;     let z = x + y;    //output  30
+let x = "10";  let y = "20";   let z = x + y;    //output  1020
  ```
  
  **[⬆ Back to Top](#table-of-contents)**
