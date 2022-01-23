@@ -363,6 +363,17 @@ parseInt("10 20 30");       //output  10
 parseInt("10 years");       //output  10
 parseInt("years 10");       //output  NaN
  ```
+ 
+   ###### The parseFloat() Method
+ `parseFloat()`  parses a string and returns a number. Spaces are allowed. Only the first number is returned:
+ 
+  ```javascript
+parseFloat("10");         //output  10
+parseFloat("10.33");      //output  10.33
+parseFloat("10 20 30");   //output  10
+parseFloat("10 years");   //output  10
+parseFloat("years 10");   //output  NaN
+ ```
   
  **[⬆ Back to Top](#table-of-contents)**
 
