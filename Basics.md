@@ -176,16 +176,19 @@ let newText = text.replace("Microsoft", "W3Schools");
 // output  Please visit W3Schools
  ``` 
 #### 6. Extracting String Parts
-The `replace()` method replaces a specified value with another value in a string
+There are 3 methods for extracting a part of a string
 * slice(start, end)
 * substring(start, end)
 * substr(start, length)
 
-JavaScript String slice()
+##### 1.JavaScript String slice()
+slice() extracts a part of a string and returns the extracted part in a new string.     
+The method takes 2 parameters: the start position, and the end position (end not included).
  ```javascript
-let text = "Please visit Microsoft!";
-let newText = text.replace("Microsoft", "W3Schools");
-// output  Please visit W3Schools
+let str = "Apple,Banana,Kiwi";
+let part = str.slice(6, 12);
+
+// output  Banana
  ``` 
 
  
