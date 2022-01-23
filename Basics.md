@@ -187,9 +187,22 @@ The method takes 2 parameters: the start position, and the end position (end not
  ```javascript
 let str = "Apple,Banana,Kiwi";
 let part = str.slice(6, 12);
-
 // output  Banana
  ``` 
+ If a parameter is negative, the position is counted from the end of the string.
+  ```javascript
+let str = "Apple,Banana,Kiwi";
+let part = str.slice(-11, -5);
+// output  Banana
+ ```
+ If you omit the second parameter, the method will slice out the rest of the string:
+  ```javascript
+let str = "Apple,Banana,Kiwi";
+let part = str.slice(13);
+// output  Kiwi
+let part = str.slice(-4);
+// output  Kiwi
+ ```
 
  
 
