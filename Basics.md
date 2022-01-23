@@ -445,13 +445,9 @@ Assignment operators assign values to JavaScript variables
 | /= |  x/=y    |    	x = x/ y  |
 
   ```javascript
-Addition        let x = 100 + 50;     //output  150
-Subtraction     let x = 100 - 50;     //output  50
-Multiplication  let x = 10 * 5;       //output  50
-Division        let x = 10 / 5;       //output  50
-Exponentiation  let x = 10 ** 2;      //output  100   let x = 10 ** 3;     //output  1000
-Modulus         let x = 10 % 3;       //output  1
-Increment       let x = 100++;        //output  101   
-Decrement       let x = 100--;        //output  99
+Addition and assign       let x = 10; x += 5;     //console.log(x)  -> 15
+Substract and assign      let x = 10; x -= 5;     //console.log(x)  -> 5
+Multiply and assign       let x = 10; x *= 5;     //console.log(x)  -> 50
+Division and assign       let x = 10; x /= 5;     //console.log(x)  -> 2
  ```
 
