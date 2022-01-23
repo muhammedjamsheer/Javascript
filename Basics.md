@@ -383,14 +383,21 @@ parseFloat("years 10");   //output  NaN
   
 | Operator. | Description |
 |----| ---------
-|+   |  Addition    |
-|-   | 	Subtraction |
-|*   |  Multiplication    |
-|/   | 	Division |
-|**  |  Exponentiation     |
-|%   | 	Modulus (Remainder) |
+|  + |  Addition    |
+|  - | 	Subtraction |
+|  * |  Multiplication    |
+|  / | 	Division |
+| ** |  Exponentiation     |
+|  % | 	Modulus (Remainder) |
 | ++ |  Increment     |
 | -- | 	Modulus (Remainder) |
+
+  ```javascript
+Addition        let x = 100 + 50;     //output  150
+Subtraction     let x = 100 - 50;     //output  50
+Multiplication  let x = 10 * 5;       //output  50
+Division        let x = 10 / 5;       //output  50
+ ``` 
 
     
   **[⬆ Back to Top](#table-of-contents)**
